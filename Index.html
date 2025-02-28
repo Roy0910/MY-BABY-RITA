@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        #letter {
+            display: none;
+            margin-top: 20px;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>I Love You So Much, Rita</h1>
+    <button onclick="showLetter()">Read</button>
+
+    <div id="letter">
+        <p>My Dearest Rita,</p>
+        <p>Every moment with you feels like a dream. Your love fills my heart in ways I never thought possible. I cherish every laugh, every hug, and every kiss. You mean the world to me, and I want to spend the rest of my life making you as happy as you make me. You are my everything, Rita. Thank you for being you, and for loving me the way you do. I love you forever.</p>
+    </div>
+
+    <script>
+        function showLetter() {
+            document.getElementById("letter").style.display = "block";
+        }
+    </script>
+</body>
+</html>
